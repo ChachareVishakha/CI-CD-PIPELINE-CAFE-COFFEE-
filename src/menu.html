@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cafe Delight</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        #menu {
+            background-color: #fff3e6;
+            padding: 50px;
+            border-radius: 10px;
+            margin: 20px;
+            text-align: center;
+        }
+        .menu-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+        }
+        .menu-item {
+            background: #ffdfba;
+            padding: 20px;
+            border-radius: 10px;
+            width: 200px;
+            box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+        }
+        .menu-item h3 {
+            margin: 10px 0;
+            color: #4a2c2a;
+        }
+        .menu-item p {
+            font-weight: bold;
+            color: #8b5a2b;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to Cafe Delight</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="menu.html">Menu</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <section id="home">
+        <h2>Fresh Coffee & Delicious Treats</h2>
+        <p>Enjoy the best coffee in town with our handcrafted delights.</p>
+    </section>
+    
+    <section id="menu">
+        <h2>Our Menu</h2>
+        <div class="menu-container">
+            <div class="menu-item">
+                <h3>Espresso</h3>
+                <p>₹250</p>
+            </div>
+            <div class="menu-item">
+                <h3>Cappuccino</h3>
+                <p>₹300</p>
+            </div>
+            <div class="menu-item">
+                <h3>Latte</h3>
+                <p>₹350</p>
+            </div>
+            <div class="menu-item">
+                <h3>Chocolate Cake</h3>
+                <p>₹400</p>
+            </div>
+            <div class="menu-item">
+                <h3>Croissant</h3>
+                <p>₹150</p>
+            </div>
+        </div>
+    </section>
+    
+    <footer>
+        <p>&copy; 2025 Cafe Delight. All rights reserved.</p>
+    </footer>
+</body>
+</html>

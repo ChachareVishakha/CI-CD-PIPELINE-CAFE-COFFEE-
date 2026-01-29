@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Contact - Cafe Delight</title>
+  <link rel="stylesheet" href="styles1.css"/>
+</head>
+<body>
+  <header>
+    <h1>Contact Us</h1>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="menu.html">Menu</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html" class="active">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="contact-container">
+    <div class="contact-card">
+      <h2>Get in Touch</h2>
+      <p><strong>Email:</strong> contact@cafedelight.com</p>
+      <p><strong>Phone:</strong> +123 456 7890</p>
+      <p><strong>Address:</strong> 123 Coffee Street, Brewtown</p>
+    </div>
+
+    <div class="contact-card">
+      <h2>Send a Message</h2>
+      <form class="contact-form" action="#" method="POST">
+        <input type="text" name="name" placeholder="Your Name" required/>
+        <input type="email" name="email" placeholder="Your Email" required/>
+        <input type="tel" name="phone" placeholder="Your Phone Number" required/>
+        
+        <select name="subject" required>
+          <option value="">Select Subject</option>
+          <option value="feedback">Feedback</option>
+          <option value="inquiry">General Inquiry</option>
+          <option value="complaint">Complaint</option>
+          <option value="others">Others</option>
+        </select>
+
+        <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+        <button type="submit" class="btn-submit">Send Message</button>
+      </form>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Cafe Delight. All rights reserved.</p>
+  </footer>
+</body>
+</html>
