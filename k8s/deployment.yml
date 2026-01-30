@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: cafe-deployment
-        image: vishakhagujar/ci-cd_setup_demo:17
+        image: vishakhagujar/ci-cd_setup_demo:IMAGE_TAG
         ports:
         - containerPort: 80
     
